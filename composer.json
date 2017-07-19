@@ -1,0 +1,33 @@
+{
+    "name": "igor162/yii2-tag-dependency-helper",
+    "description": "Helper for unifying cache tag names with invalidation support in yii2",
+    "type": "yii2-extension",
+    "keywords": ["yii2","cache"],
+    "homepage": "https://github.com/igor162/yii2-adjacency-tree",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Igor Fandyuhin",
+            "email": "igor162@ya.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.5.0",
+        "yiisoft/yii2": "~2.0.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0",
+        "phpunit/dbunit": "~1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "igor162\\TagDependencyHelper\\": ""
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "igor162\\TagDependencyHelper\\tests\\": "tests/"
+        }
+    }
+}
